@@ -11,7 +11,7 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: ['react'],
+  plugins: ['prettier'],
   rules: {
     indent: 'off',
     'jsx-quotes': [2, 'prefer-single'],
