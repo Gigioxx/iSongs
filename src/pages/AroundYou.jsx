@@ -8,7 +8,7 @@ import { useGetSongsByCountryQuery } from '../redux/services/shazamCore';
 const VITE_GEO_API_KEY = import.meta.env.VITE_GEO_API_KEY;
 
 const AroundYou = () => {
-  const [country, setCountry] = useState('');
+  const [country, setCountry] = useState('US');
   const [loading, setLoading] = useState(true);
   const { activeSong, isPlaying } = useSelector((state) => state.player);
   const { data, isFetching, error } = useGetSongsByCountryQuery(country);
