@@ -14,7 +14,8 @@ const ArtistDetails = () => {
     error,
   } = useGetArtistDetailsQuery(artistId);
 
-  if (isFetchingArtistDetails) return <Loader title='Loading artist details' />;
+  if (isFetchingArtistDetails)
+    return <Loader title='Loading artist details...' />;
 
   if (error) return <Error />;
 
