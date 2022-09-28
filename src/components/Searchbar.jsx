@@ -11,6 +11,8 @@ const Searchbar = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    if (searchTerm.length < 3) return;
+
     navigate(`/search/${searchTerm}`);
   };
 
