@@ -2,6 +2,10 @@
 
 This project was created to learn more about ReactJS, Tailwind, RapidAPI and other powerful tools of web development.
 
+## Check the deployed project here!
+
+https://i-songs.vercel.app/
+
 ## Project Requirements
 
 To get started with development, you need to install few tools
